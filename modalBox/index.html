@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>modalBox</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modalBox</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <button id="openBtn" onclick ="open()">Open</button>
-  <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span><button id="closeBtn">Close</button></span>
-        <p>This is Modal box !</p>
-      </div>
-  </div>
-
+<body class="screen">
+    <button id="openBtn" class="modalOpen">OPEN</button>
+    <div id="modalBox" class="modal">
+        <button id="closeBtn" class="modalX">X</button>
+        <p class="modalContent">This is Modal box !</p>
+    </div>
 <script src="src/script.js"></script>
 </body>
 </html>
+  
+          
+      

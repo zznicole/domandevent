@@ -1,0 +1,55 @@
+.screen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 60%;
+    min-height: 6em;
+    background-color: aqua;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.modalOpen {
+    padding: 0.6rem 2rem;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.modalOpen:hover,
+.modalOpen:focus {
+    color: #d1d1d1;
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.modalContent {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    position: relative;
+    color: #444444;
+    letter-spacing: 0.2rem;
+}
+
+.modalX {
+    min-width: 2.5em;
+    min-height: 2.5em;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.modalX:hover,
+.modalX:focus {
+    background-color: #444444;
+    color: #d1d1d1;
+    cursor: pointer;
+}
