@@ -5,13 +5,9 @@ let currentLight = 0;
 switchBtn.onclick = function() {
   let lights = document.getElementsByClassName('light');
   for(let i = 0; i < lights.length; i++) {
+  light[i].style.backgroundColor = '#828282';
   }
-  lights[currentLight].style.backgroundColor='#828282';
-  currentLight++;
-
-  if (currentLight > 2) {
-    currentLight= 0;
-  }
+  
 
   if (currentLight == 0) {
     lights[currentLight].style.backgroundColor='red';
@@ -19,6 +15,12 @@ switchBtn.onclick = function() {
     lights[currentLight].style.backgroundColor='yellow';
   } else {
     lights[currentLight].style.backgroundColor='green';
+  }
+  
+  currentLight++;
+
+  if (currentLight > 2) {
+    currentLight= 0;
   }
 }
   

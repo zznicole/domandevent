@@ -3,7 +3,7 @@
 }
 
 .container {
-    width: 13%;
+    min-width: 170px;
     min-height: 460px;
     background-color: #444444;
     display: flex;
